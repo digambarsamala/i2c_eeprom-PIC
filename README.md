@@ -53,10 +53,13 @@ This project is useful for learning:
 ## 📂 File Structure
 
 ```
-📁 I2C_EEPROM_Project
- ├── main.c
- ├── I2C_EEPROM.c
- └── I2C_EEPROM.h
+├── build # Auto-generated build files (MPLAB)
+├── dist # Compiled output files (HEX, etc.)
+├── nbproject # MPLAB project configuration files
+├── Makefile # Build automation file
+├── i2c_eeprom.c # I2C and EEPROM driver implementation
+├── i2c_eeprom.h # Function prototypes and definitions
+└── main.c # Application entry point
 ```
 
 ### 🔹 main.c
