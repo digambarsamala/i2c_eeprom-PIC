@@ -50,15 +50,13 @@ This project is useful for learning:
 
 ---
 
-📂 File Structure (Updated)
+## 📂 File Structure
+
+```
 📁 I2C_EEPROM_Project
- ├── build/              # Auto-generated build files (MPLAB)
- ├── dist/               # Compiled output files (HEX, etc.)
- ├── nbproject/          # MPLAB project configuration files
- ├── Makefile            # Build automation file
- ├── i2c_eeprom.c        # I2C and EEPROM driver implementation
- ├── i2c_eeprom.h        # Function prototypes and definitions
- └── main.c              # Application entry point
+ ├── main.c
+ ├── I2C_EEPROM.c
+ └── I2C_EEPROM.h
 ```
 
 ### 🔹 main.c
@@ -175,3 +173,7 @@ Embedded Systems Enthusiast
 ## 📜 License
 
 This project is open-source and free to use for learning purposes.
+
+---
+
+⭐ If you found this helpful, consider starring the repository!
